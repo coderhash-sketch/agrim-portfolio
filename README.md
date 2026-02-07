@@ -1,15 +1,20 @@
-Hi, I'm Agrim Garg 👋
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Founder-builder passionate about mathematics, AI, and scalable product development.  
-Building impact-driven startups, agentic AI systems, and community platforms.
+# Run and deploy your AI Studio app
 
-🚀 Focus
-- AI & Machine Learning
-- Full-Stack Product Engineering  
-- Mathematics & Fast Problem Solving  
-- Startup Building & Leadership  
+This contains everything you need to run your app locally.
 
- 🎯 Vision
-Build world-class products and solve real-world problems at scale.
+View your app in AI Studio: https://ai.studio/apps/drive/1B1TjxdfZB_TW7jYeN3kxYmCV5XnYb8an
 
- Reach me: LinkedIn | GitHub | Email
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
